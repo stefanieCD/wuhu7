@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>配置文件输入框</title>
+  <link rel="stylesheet" href="EditProfile.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>编辑个人资料</h1>
+    <form action="#">
+      <input type="text" placeholder="姓名" id="name"><br><br>
+      <input type="text" placeholder="用户名" id="username"><br><br>
+      <input type="date" placeholder="出生年月日" id="dob"><br><br>
+      <input type="email" placeholder="邮箱地址" id="email"><br><br>
+      <select name="country" id="country">
+        <option value="United States">中国</option>
+        <!-- 其他国家选项 -->
+      </select><br><br>
+      <input type="tel" placeholder="电话号码" id="phone"><br><br>
+      <select name="gender" id="gender">
+        <option value="Male">男性</option>
+        <option value="Female">女性</option>
+        <!-- 其他性别选项 -->
+      </select>
+    </form>
+    <button type="submit" class="btn">更新</button>
+  </div>
+</body>
+
+</html>
